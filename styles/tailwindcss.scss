@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+@layer base {
+  :root {
+    --color-primary: 22 119 255;
+  }
+
+  svg {
+    display: inline;
+    vertical-align: baseline;
+  }
+}
